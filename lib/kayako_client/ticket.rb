@@ -185,6 +185,9 @@ module KayakoClient
                 when 'start', 'offset'
                     index = 5
                     components[index] = []
+                when 'sortby', 'orderby'
+                    index = 6
+                    components[index] = []
                 else
                     next
                 end
